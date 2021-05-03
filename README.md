@@ -1,7 +1,6 @@
 # hack_deck
-# badusb_botnetv2
 
-<p align="center"><img src="https://raw.githubusercontent.com/alexfrancow/hack_deck/main/bg/1_2.png" height="500" width="825" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/alexfrancow/hack_deck/main/bg/1_2.png" height="320" width="480" /></p>
 
 Gimp new project:
 ```
