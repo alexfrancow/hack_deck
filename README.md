@@ -41,7 +41,7 @@ Copy the ```C:\Users\alexfrancow\AppData\Roaming\Nextion Editor\work\a-202121191
 ## Arduino
 
 ```
-1. In your libraries folder, find the Nextion library.
+1. In your libraries folder (C:\Users\alexfrancow\Documents\Arduino\libraries\ITEADLIB_Arduino_Nextion-master), find the Nextion library.
 2. Find the file called NexConfig.h and right click on it and click edit.
 3. Find line 37 that says   #define nexSerial Serial2 
 4. Delete or comment out that line and replace it with the following: 
