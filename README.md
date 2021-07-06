@@ -35,6 +35,7 @@ Add button --> Atribute --> sta = crop image
 * Clone the button
 * ```Debug``` to show the simulator return
 * Compile
+<p align="center"><img src="https://github.com/alexfrancow/hack_deck/blob/main/images/debugger.png" height="480" width="720" /></p>
 
 Copy the ```C:\Users\alexfrancow\AppData\Roaming\Nextion Editor\work\a-2021211914282\output\test.tft``` to the SD card. Make sure that you only have that file in the SD card.
 
