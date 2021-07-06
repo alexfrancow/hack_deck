@@ -31,6 +31,8 @@ Add button --> Atribute --> sta = crop image
            |-> txt = ""
            |-> Event -> Touch Release Event -> [x] Send component ID
 ```
+> Very important select "Touch Release Event"!
+
 *Clone the button
 *Debug to show the simulator return
 *Compile
@@ -40,7 +42,11 @@ Copy the ```C:\Users\alexfrancow\AppData\Roaming\Nextion Editor\work\a-202121191
 
 ## Arduino
 
-```
+### Nextion library
+
+Modify the SoftwareSerial:
+
+```c
 1. In your libraries folder (C:\Users\alexfrancow\Documents\Arduino\libraries\ITEADLIB_Arduino_Nextion-master), find the Nextion library.
 2. Find the file called NexConfig.h and right click on it and click edit.
 3. Find line 37 that says   #define nexSerial Serial2 
@@ -49,3 +55,14 @@ Copy the ```C:\Users\alexfrancow\AppData\Roaming\Nextion Editor\work\a-202121191
 extern SoftwareSerial HMISerial;
 #define nexSerial HMISerial
 ```
+
+Board: "Arduino Micro"
+
+### Connections
+
+|Arduino|Display|
+|---|---|
+|9|RX|
+|8|TX|
+|VCC|+5V|
+|GND|GND|
