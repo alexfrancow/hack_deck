@@ -2,19 +2,18 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/alexfrancow/hack_deck/main/bg/1_2.png" height="320" width="480" /></p>
 
-Gimp new project:
+Create the following layout in photoshop:
 ```
 Width: 320px
 Height: 480px
 ```
 Export to .png
 
-Open Nextion Editor, select model
+Open Nextion Editor, select model ```NX4832K035_011```.
 
 Nextion Enhanced NX4832K035 3.5 Inch HMI Intelligent Smart USART UART Serial Touch Screen TFT LCD Module
 https://www.banggood.com/Nextion-Enhanced-NX4832K035-3_5-Inch-HMI-Intelligent-Smart-USART-UART-Serial-Touch-Screen-TFT-LCD-Module-p-1188732.html?rmmds=myorder
 
-NX4832K035_011
 
 Preinitialize event
 
@@ -33,12 +32,15 @@ Add button --> Atribute --> sta = crop image
 ```
 > Very important select "Touch Release Event"!
 
-*Clone the button
-*Debug to show the simulator return
-*Compile
+* Clone the button
+* ```Debug``` to show the simulator return
+* Compile
 
-Copy the ```C:\Users\alexfrancow\AppData\Roaming\Nextion Editor\work\a-2021211914282\output\numPad.tft``` to the SD card. Make sure that you only have that file in the SD card.
+Copy the ```C:\Users\alexfrancow\AppData\Roaming\Nextion Editor\work\a-2021211914282\output\test.tft``` to the SD card. Make sure that you only have that file in the SD card.
 
+### Export TFT from nextion IDE
+
+File -> TFT File Output -> Output
 
 ## Arduino
 
