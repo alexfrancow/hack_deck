@@ -20,6 +20,7 @@ Preinitialize event
 ```
 dims=50
 ```
+<p align="center"><img src="https://raw.githubusercontent.com/alexfrancow/hack_deck/main/images/preinitevent.png" height="480" width="720" /></p>
 
 Configure the button:
 ```
